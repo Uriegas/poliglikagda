@@ -1,7 +1,7 @@
-@def title = "Franklin Example"
+@def title = "Poliglikagda"
 @def tags = ["syntax", "code"]
 
-# How to use Franklin
+# Pologlikagda
 
 \tableofcontents <!-- you can use \toc as well -->
 
@@ -14,6 +14,17 @@ Ps: if you want to modify the header or footer or the general look of the websit
 * `src/_html_parts/`.
 
 ## The base with Markdown
+
+```julia:./ex1
+rand(5,5)
+```
+
+\show{./ex1}
+
+```julia:./ex2
+print("hola")
+```
+\show{./ex2}
 
 The [standard markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) can be used such as titles using `#`, lists:
 
