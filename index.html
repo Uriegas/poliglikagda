@@ -1,10 +1,10 @@
-<!doctype html> <html lang=en > <meta charset=UTF-8 > <meta name=viewport  content="width=device-width, initial-scale=1"> <link rel=stylesheet  href="libs/katex/katex.min.css"> <link rel=stylesheet  href="libs/highlight/github.min.css"> <link rel=stylesheet  href="css/franklin.css"> <link rel=stylesheet  href="css/poole_lanyon.css"> <link rel=stylesheet  href="css/adjust.css"> <link rel=icon  href="assets/favicon.png"> <title>Poliglikagda</title> <input type=checkbox  class=sidebar-checkbox  id=sidebar-checkbox > <div class=sidebar  id=sidebar > <div class=sidebar-item > <p>A theme adapted from <a href="http://lanyon.getpoole.com/" target=_blank >Lanyon</a>.</p> </div> <nav class=sidebar-nav > <a class="sidebar-nav-item active" href="/">Home</a> <a class="sidebar-nav-item " href="/menu1/">Code blocks</a> <a class="sidebar-nav-item " href="/menu2/">More goodies</a> <a class="sidebar-nav-item " href="/menu3/">Tags</a> </nav> <div class=sidebar-item > <p>&copy; Septimia Zenobia.</p> </div> </div> <!-- Wrap is the content to shift when toggling the sidebar. We wrap the content to avoid any CSS collisions with our real content. --> <div class=wrap > <div class=masthead > <div class=container > <h3 class=masthead-title > <a href="/" title=Home >Lanyon</a> <small>Description of your site</small> </h3> </div> </div> <div class="container content"> <div class=franklin-content ><h1 id=pologlikagda ><a href="#pologlikagda" class=header-anchor >Pologlikagda</a></h1> <p><div class=franklin-toc ><ol><li><a href="#the_base_with_markdown">The base with Markdown</a><ol><li><a href="#symbols_and_html_entities">Symbols and html entities</a></ol><li><a href="#basic_franklin_extensions">Basic Franklin extensions</a><ol><li><a href="#divs">Divs</a><li><a href="#latex_and_maths">LaTeX and Maths</a><li><a href="#a_quick_note_on_whitespaces">A quick note on whitespaces</a><li><a href="#raw_html">Raw HTML</a></ol><li><a href="#pages_and_structure">Pages and structure</a><li><a href="#references_not_really">References &#40;not really&#41;</a><li><a href="#header_and_footer">Header and Footer</a></ol></div> </p> <p>This section is meant as a refresher if you&#39;re new to Franklin. Have a look at both how the website renders and the corresponding markdown &#40;<code>index.md</code>&#41;. Modify at will to get a feeling for how things work&#33;</p> <p>Ps: if you want to modify the header or footer or the general look of the website, adjust the files in</p> <ul> <li><p><code>src/_css/</code> and</p> <li><p><code>src/_html_parts/</code>.</p> </ul> <h2 id=the_base_with_markdown ><a href="#the_base_with_markdown" class=header-anchor >The base with Markdown</a></h2> <pre><code class=language-julia >rand&#40;5,5&#41;</code></pre>
+<!doctype html> <html lang=en > <meta charset=UTF-8 > <meta name=viewport  content="width=device-width, initial-scale=1"> <link rel=stylesheet  href="/project/libs/katex/katex.min.css"> <link rel=stylesheet  href="/project/libs/highlight/github.min.css"> <link rel=stylesheet  href="/project/css/franklin.css"> <link rel=stylesheet  href="/project/css/poole_lanyon.css"> <link rel=stylesheet  href="/project/css/adjust.css"> <link rel=icon  href="/project/assets/favicon.png"> <title>Poliglikagda</title> <input type=checkbox  class=sidebar-checkbox  id=sidebar-checkbox > <div class=sidebar  id=sidebar > <div class=sidebar-item > <p>A theme adapted from <a href="http://lanyon.getpoole.com/" target=_blank >Lanyon</a>.</p> </div> <nav class=sidebar-nav > <a class="sidebar-nav-item active" href="/project/">Home</a> <a class="sidebar-nav-item " href="/project/menu1/">Code blocks</a> <a class="sidebar-nav-item " href="/project/menu2/">More goodies</a> <a class="sidebar-nav-item " href="/project/menu3/">Tags</a> </nav> <div class=sidebar-item > <p>&copy; Eduardo Uriegas.</p> </div> </div> <!-- Wrap is the content to shift when toggling the sidebar. We wrap the content to avoid any CSS collisions with our real content. --> <div class=wrap > <div class=masthead > <div class=container > <h3 class=masthead-title > <a href="/project/" title=Home >Lanyon</a> <small>Description of your site</small> </h3> </div> </div> <div class="container content"> <div class=franklin-content ><h1 id=pologlikagda ><a href="#pologlikagda" class=header-anchor >Pologlikagda</a></h1> <p><div class=franklin-toc ><ol><li><a href="#the_base_with_markdown">The base with Markdown</a><ol><li><a href="#symbols_and_html_entities">Symbols and html entities</a></ol><li><a href="#basic_franklin_extensions">Basic Franklin extensions</a><ol><li><a href="#divs">Divs</a><li><a href="#latex_and_maths">LaTeX and Maths</a><li><a href="#a_quick_note_on_whitespaces">A quick note on whitespaces</a><li><a href="#raw_html">Raw HTML</a></ol><li><a href="#pages_and_structure">Pages and structure</a><li><a href="#references_not_really">References &#40;not really&#41;</a><li><a href="#header_and_footer">Header and Footer</a></ol></div> </p> <p>This section is meant as a refresher if you&#39;re new to Franklin. Have a look at both how the website renders and the corresponding markdown &#40;<code>index.md</code>&#41;. Modify at will to get a feeling for how things work&#33;</p> <p>Ps: if you want to modify the header or footer or the general look of the website, adjust the files in</p> <ul> <li><p><code>src/_css/</code> and</p> <li><p><code>src/_html_parts/</code>.</p> </ul> <h2 id=the_base_with_markdown ><a href="#the_base_with_markdown" class=header-anchor >The base with Markdown</a></h2> <pre><code class=language-julia >rand&#40;5,5&#41;</code></pre>
 <pre><code class="plaintext code-output">5×5 Matrix{Float64}:
- 0.448737   0.411768   0.397933  0.435006   0.619005
- 0.278272   0.417263   0.429648  0.721063   0.348057
- 0.0795477  0.10285    0.146522  0.0322019  0.513956
- 0.437501   0.0673445  0.17244   0.394293   0.179999
- 0.833701   0.161641   0.305698  0.748516   0.710771</code></pre>
+ 0.477516   0.842528  0.723613  0.788782  0.291428
+ 0.836449   0.465524  0.956686  0.382906  0.348169
+ 0.0796598  0.741901  0.713808  0.209448  0.573844
+ 0.779351   0.17505   0.344777  0.684343  0.0441174
+ 0.404521   0.303571  0.837882  0.626261  0.070777</code></pre>
 <pre><code class=language-julia >print&#40;&quot;hola&quot;&#41;</code></pre>
 <pre><code class="plaintext code-output">hola</code></pre>
 <p>The <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">standard markdown syntax</a> can be used such as titles using <code>#</code>, lists:</p>
@@ -90,7 +90,7 @@ end</code></pre>
 
 <div class=row >
   <div class=container >
-    <img class=left  src="/assets/rndimg.jpg">
+    <img class=left  src="/project/assets/rndimg.jpg">
     <p>
     Marine iguanas are truly splendid creatures. They're found on the Gálapagos islands, have skin that basically acts as a solar panel, can swim and may have the ability to adapt their body size depending on whether there's food or not.
     </p>
@@ -103,18 +103,18 @@ end</code></pre>
 
 <p><strong>Note 1</strong>: again, entire such blocks can be made into latex-like commands via <code>\newcommand&#123;\mynewblock&#125;&#91;1&#93;&#123;...&#125;</code>.</p>
 <p><strong>Note 2</strong>: whatever is in a raw HTML block is <em>not</em> further processed &#40;so you can&#39;t have LaTeX in there for instance&#41;. A partial way around this is to use <code>@@...</code> blocks which <em>will</em> be recursively parsed. The following code gives the same result as above with the small difference that there is LaTeX being processed in the inner div.</p>
-<div class=row ><div class=container ><div class=left ><img src="/assets/rndimg.jpg" alt="" /></div></div>
+<div class=row ><div class=container ><div class=left ><img src="/project/assets/rndimg.jpg" alt="" /></div></div>
 <p>Marine iguanas are <strong>truly splendid</strong> creatures. They&#39;re not found in equations like \(\exp(-i\pi)+1\). But they&#39;re still quite cool. 
 <div style="clear: both"></div>
 </p></div>
 <h2 id=pages_and_structure ><a href="#pages_and_structure" class=header-anchor >Pages and structure</a></h2>
 <p>Here are a few empty pages connecting to the menu links to show where files can go and the resulting paths. &#40;It&#39;s probably best if you look at the source folder for this&#41;.</p>
 <ul>
-<li><p><a href="/menu1/">menu 1</a></p>
+<li><p><a href="/project/menu1/">menu 1</a></p>
 
-<li><p><a href="/menu2/">menu 2</a></p>
+<li><p><a href="/project/menu2/">menu 2</a></p>
 
-<li><p><a href="/menu3/">menu 3</a></p>
+<li><p><a href="/project/menu3/">menu 3</a></p>
 
 </ul>
 <h2 id=references_not_really ><a href="#references_not_really" class=header-anchor >References &#40;not really&#41;</a></h2>
@@ -131,20 +131,20 @@ end</code></pre>
 <p>There&#39;s a few other such functions of the form <code>&#123;&#123;fname p₁ p₂&#125;&#125;</code> as well as support for conditional blocks. If you wander through the <code>src/_html_parts/</code> folder and its content, you should be able to see those in action.</p>
 <div class=page-foot >
   <div class=copyright >
-    &copy; Septimia Zenobia. Last modified: October 17, 2021. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+    &copy; Eduardo Uriegas. Last modified: October 17, 2021. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
   </div>
 </div>
 </div>
       </div>  
     </div> 
     
-        <script src="/libs/katex/katex.min.js"></script>
-<script src="/libs/katex/auto-render.min.js"></script>
+        <script src="/project/libs/katex/katex.min.js"></script>
+<script src="/project/libs/katex/auto-render.min.js"></script>
 <script>renderMathInElement(document.body)</script>
 
     
     
-        <script src="/libs/highlight/highlight.pack.js"></script>
+        <script src="/project/libs/highlight/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();hljs.configure({tabReplace: '    '});</script>
 
     
