@@ -1,4 +1,4 @@
-Sitemap: https://tlienart.github.io/FranklinTemplates.jl/sitemap.xml
+Sitemap: https://uriegas.github.io/poliglikagda/sitemap.xml
 
 User-agent: *
 Disallow:
