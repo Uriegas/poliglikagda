@@ -174,6 +174,7 @@ Marine iguanas are **truly splendid** creatures. They're not found in equations 
 
 Here are a few empty pages connecting to the menu links to show where files can go and the resulting paths. (It's probably best if you look at the source folder for this).
 
+* [Universal Differential Equations](/universal_diff_equ/)
 * [menu 1](/menu1/)
 * [menu 2](/menu2/)
 * [menu 3](/menu3/)
